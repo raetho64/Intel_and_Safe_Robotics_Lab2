@@ -30,17 +30,17 @@ private:
     double speed = 0.0;
     /// TODO: create ROS subscribers and publishers
 
-    void drive_callback(const nav_msgs::msg::Odometry::ConstSharedPtr msg)
-    {
+    //void drive_callback(const nav_msgs::msg::Odometry::ConstSharedPtr msg)
+    //{
         /// TODO: update current speed
-    }
+    //}
 
-    void scan_callback(const sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg) 
-    {
+    //void scan_callback(const sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg) 
+    //{
         /// TODO: calculate TTC
 
         /// TODO: publish drive/brake message
-    }
+    //}
 
 
 
